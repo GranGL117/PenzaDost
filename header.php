@@ -18,7 +18,7 @@
             <nav class="nav_">
                 <a class="nav_link" href="index.php">Главная</a>
                 <a class="nav_link" href="map.php">Карта</a>
-                <a class="nav_link" href="#">О сайте</a>
+                <a class="nav_link" href="about.php">О сайте</a>
             </nav>
         </div>
     </div>
