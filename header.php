@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css?=version1">
+    <link rel="stylesheet" href="style/style.css?=version3">
+    <link rel="stylesheet" type="text/css" href="style/slick.css"/>
     <title>Достопримечательности Пензы</title>
 </head>
 <body>
