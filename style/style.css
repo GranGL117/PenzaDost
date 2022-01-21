@@ -134,7 +134,12 @@ h1 {
     text-decoration: none;
     transition: .3s;
     color: #492424;
+}
 
+#map{
+    width: 80%;
+    height: 500px;
+    margin: 20px auto;
 }
 
 
