@@ -6,3 +6,4 @@ $(document).ready(function(){
         nextArrow: "<button type=\"button\" class=\"slick-next\"><img class='slider_img_btn' src='../img/right-arrow.png'></button>",
     });
 });
+
