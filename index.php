@@ -12,7 +12,7 @@
         <div class="slider">
             <div>
                 <img src="img/1.jpg">
-                <a class="slider_link">Музей одной картины им. Г.В. Мясникова</a>
+                <a class="slider_link" href="Dost/MuseumOnePicture.php">Музей одной картины им. Г.В. Мясникова</a>
             </div>
             <div>
                 <img src="img/2.jpg">

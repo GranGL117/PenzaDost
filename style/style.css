@@ -79,6 +79,13 @@ h1 {
 
 }
 
+/* Info ============= */
+.info_container{
+    width: 30%;
+    max-width: 1200px;
+    margin: 20px;
+}
+
 /* Slider ============= */
 
 .slider_container{
@@ -136,11 +143,7 @@ h1 {
     color: #492424;
 }
 
-#map{
-    width: 80%;
-    height: 500px;
-    margin: 20px auto;
-}
+/* Map ============= */
 
 .popup_link{
     font-size: 12px;
@@ -148,6 +151,16 @@ h1 {
     font-family: 'Playfair Display SC', serif;
     color: black;
 }
+
+#map{
+    width: 80%;
+    height: 500px;
+    margin: 20px auto;
+}
+
+
+
+
 
 
 
