@@ -16,19 +16,19 @@
             </div>
             <div>
                 <img src="img/2.jpg">
-                <a class="slider_link">Пензенский государственный краеведческий музей</a>
+                <a class="slider_link" href="Dost/PenzaStateMuseum.php">Пензенский государственный краеведческий музей</a>
             </div>
             <div>
                 <img src="img/3.jpg">
-                <a class="slider_link">Музей Сценического Искусства им. В. Э. Мейерхольда</a>
+                <a class="slider_link" href="Dost/MeyerholdMuseum.php">Музей Сценического Искусства им. В. Э. Мейерхольда</a>
             </div>
             <div>
                 <img src="img/4.jpg">
-                <a class="slider_link">Памятник Первопоселенец</a>
+                <a class="slider_link" href="Dost/FirstSettler.php">Памятник Первопоселенец</a>
             </div>
             <div>
                 <img src="img/5.jpg">
-                <a class="slider_link">Свето-музыкальный фонтан Спутник</a>
+                <a class="slider_link" href="Dost/LightMusicalFontain.php">Свето-музыкальный фонтан Спутник</a>
             </div>
         </div>
     </div>
