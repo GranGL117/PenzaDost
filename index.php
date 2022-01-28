@@ -1,5 +1,6 @@
-<?php require_once "header.php" ?>
-
+<?php require_once "header.php";
+require_once 'vendor/connect.php';
+?>
 
     <div class="container">
         <div class="intro">
@@ -10,26 +11,15 @@
 
     <div class="slider_container">
         <div class="slider">
+            <?php
+            $info = mysqli_query($connect, "SELECT `id`, `title`, `face_pic` FROM `dost_info`");
+            $info = $info->fetch_all();
+            foreach ($info as $dost) { ?>
             <div>
-                <img src="img/1.jpg">
-                <a class="slider_link" href="Dost/MuseumOnePicture.php">Музей одной картины им. Г.В. Мясникова</a>
+                <img src="data:image/jpeg;base64, <?=base64_encode($dost[2]) ?>">
+                <a class="slider_link" href="Dost/content.php?id=<?=$dost[0] ?>"><?=$dost[1] ?></a>
             </div>
-            <div>
-                <img src="img/2.jpg">
-                <a class="slider_link" href="Dost/PenzaStateMuseum.php">Пензенский государственный краеведческий музей</a>
-            </div>
-            <div>
-                <img src="img/3.jpg">
-                <a class="slider_link" href="Dost/MeyerholdMuseum.php">Музей Сценического Искусства им. В. Э. Мейерхольда</a>
-            </div>
-            <div>
-                <img src="img/4.jpg">
-                <a class="slider_link" href="Dost/FirstSettler.php">Памятник Первопоселенец</a>
-            </div>
-            <div>
-                <img src="img/5.jpg">
-                <a class="slider_link" href="Dost/LightMusicalFontain.php">Свето-музыкальный фонтан Спутник</a>
-            </div>
+            <?php } ?>
         </div>
     </div>
 
