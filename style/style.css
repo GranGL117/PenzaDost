@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&display=swap');
 body{
     margin: 0;
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Playfair Display SC', sans-serif;
     font-size: 14px;
     background-color: #d5d4c8;
     color: black;
@@ -31,14 +31,10 @@ h1 {
 .header {
     padding: 20px;
     border-bottom: 1px solid #7e7e7e;
-
     width: 100%;
 
 }
 
-.header_title{
-    font-family: 'Playfair Display SC', serif;
-}
 
 .header_inner{
     display: flex;
@@ -62,7 +58,7 @@ h1 {
 }
 
 .nav_link:hover{
-    padding-bottom: 51px;
+    padding-bottom: 48px;
     border-bottom: 6px solid #8e2c0a;
     color: #8e2c0a;
     opacity: .6;
@@ -81,7 +77,6 @@ h1 {
 .intro_text{
     color: black;
     font-size: 25px;
-
 }
 
 /* Content ============= */
@@ -100,9 +95,7 @@ h1 {
 
 }
 
-.content_title {
-    font-family: 'Playfair Display SC', serif;
-}
+
 
 .content_text{
     font-size: 18px;
@@ -130,6 +123,7 @@ h1 {
 
 .slick-prev{
     position: absolute;
+    z-index: 1000;
     top: 50%;
     transform: translateY(-50%);
     left: -60px;
@@ -138,6 +132,7 @@ h1 {
 }
 .slick-next{
     position: absolute;
+    z-index: 1000;
     top: 50%;
     transform: translateY(-50%);
     right: -60px;
@@ -160,7 +155,6 @@ h1 {
 .slider_link{
     font-size: 26px;
     font-weight: bold;
-    font-family: 'Playfair Display SC', serif;
     color: black;
 }
 .slider_link:hover{
@@ -209,9 +203,260 @@ h1 {
     margin: 20px auto;
 }
 
+/* Media
+================*/
+@media (max-width: 1330px) {
+    /* Content */
+    .content_slider{
+        max-width: 610px;
+    }
 
+}
 
+@media (max-width: 1200px){
+    /* Header */
+    .header_title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* Nav */
+    .nav_ {
+        font-size: 14px;
+    }
+    .nav_link:hover{
+        padding-bottom: 52px;
+    }
+    /* Intro */
+    .intro_title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .intro_text{
+        font-size: 18px;
+    }
+    .slider_link{
+        font-size: 18px;
+    }
+    /* Content */
+    .content_container{
+        margin: 20px 40px;
+    }
+    .content_text{
+        font-size: 14px;
+    }
+    .content_title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .content_inner{
+        margin-right: 50px;
+    }
 
+}
+
+@media (max-width: 899px){
+
+    .slider_container{
+        max-width: 610px;
+
+    }
+    /* Content */
+    .content_container{
+        flex-wrap: wrap;
+        margin: 20px 40px;
+    }
+}
+
+@media (max-width: 770px){
+    /* Header */
+    #logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .header_title{
+        font-size: 16px;
+    }
+    /* Nav */
+    .nav_ {
+        font-size: 12px;
+    }
+    .nav_link:hover{
+        padding-bottom: 52px;
+    }
+    /* Intro */
+    .intro_title{
+        font-size: 16px;
+    }
+    .intro_text{
+        font-size: 12px;
+    }
+    .slider_link{
+        font-size: 16px;
+    }
+    /* Content */
+    .content_container{
+        margin: 20px 20px;
+    }
+    .content_text{
+        font-size: 12px;
+    }
+    .content_title{
+        font-size: 16px;
+    }
+    .content_inner{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 770px){
+    .nav_link:hover{
+        padding-bottom: 29px;
+        border-bottom: 3px solid #8e2c0a;
+    }
+    .slider_container{
+        max-width: 410px;
+
+    }
+    .slider_container img{
+        max-width: 410px;
+
+    }
+    .content_slider{
+        max-width: 510px;
+
+    }
+    .content_slider img{
+        max-width: 510px;
+
+    }
+
+}
+
+@media (max-width: 530px){
+    .nav_link:hover{
+        border-bottom: none;
+    }
+
+    .slider_container{
+        max-width: 310px;
+
+    }
+
+    .slider_container img{
+        max-width: 310px;
+
+    }
+    .content_slider{
+        max-width: 410px;
+
+    }
+    .content_slider img{
+        max-width: 410px;
+
+    }
+
+    .slick-dots button {
+        width: 10px;
+        height: 12px;
+    }
+
+}
+
+@media (max-width: 470px){
+    .content_slider{
+        max-width: 310px;
+
+    }
+    .content_slider img{
+        max-width: 310px;
+
+    }
+
+}
+
+@media (max-width: 404px){
+    .content_slider{
+        max-width: 310px;
+
+    }
+    .content_slider img{
+        max-width: 310px;
+
+    }
+    .slider_img_btn{
+        width: 20px;
+        height: 20px;
+    }
+    .slick-prev{
+        left: -30px;
+    }
+    .slick-next{
+        right: -30px;
+    }
+    .slider_container{
+        max-width: 240px;
+
+    }
+    .slider_container img{
+        max-width: 240px;
+
+    }
+    .content_slider{
+        max-width: 260px;
+
+    }
+    .content_slider img{
+        max-width: 260px;
+
+    }
+    .header_title{
+        font-size: 14px;
+    }
+    /* Nav */
+    .nav_ {
+        font-size: 10px;
+    }
+    /* Intro */
+    .intro_title{
+        font-size: 14px;
+    }
+    .intro_text{
+        font-size: 12px;
+    }
+    .slider_link{
+        font-size: 14px;
+    }
+    /* Content */
+    .content_text{
+        font-size: 12px;
+    }
+    .content_title{
+        font-size: 14px;
+    }
+}
+@media (max-width: 350px){
+    #logo{
+        visibility: hidden;
+        position: absolute;
+    }
+    .content_slider{
+        max-width: 200px;
+
+    }
+    .content_slider img{
+        max-width: 200px;
+
+    }
+    .slider_container{
+        max-width: 230px;
+
+    }
+    .slider_container img{
+        max-width: 230px;
+
+    }
+
+}
 
 
 
